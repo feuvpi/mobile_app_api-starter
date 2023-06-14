@@ -2,6 +2,13 @@
 
 This is a starter for a complete application ecosystem composed of a starter mobile app featuring register, login, home forms and an API with pre-built Authentication System enabled with JWT. The API include some prebuilt routes like login, register and home and uses Prisma as an ORM to connect to an SQLite database. A middleware is included to handle route protection.
 
+## Features
+- User authentication system with JWT for secure access;
+- Pre-built lLogin and register forms;
+- Pre-built login and register routes;
+- Prisma as ORM for SQLite connection;
+- Middleware for route protection.
+
 ## Starting the Mobile App
 
 To start the mobile app, please follow the steps below:
@@ -31,3 +38,15 @@ npx expo start
 6. Start building.
 
 ## Starting the API
+
+## Contribution
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create a pull request.
+
+## Author
+
+Fred Pinheiro
+
+## License
+
+This project is licensed under the MIT License.
