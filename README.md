@@ -39,6 +39,8 @@ npx expo start
 
 ## Starting the API
 
+1 Fork this repository and clone your fork to your local environment.
+
 ## Contribution
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a pull request.
