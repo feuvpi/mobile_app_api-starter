@@ -17,7 +17,7 @@ const availableWeekDays = [
   'Sábado'
 ]
 
-export function NewHabit() {
+export function Form() {
   const [weekDays, setWeekDays] = useState<number[]>([]);
   const [title, setTitle] = useState('');
 
