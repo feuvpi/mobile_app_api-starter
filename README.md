@@ -9,6 +9,16 @@ This is a starter for a complete application ecosystem composed of a starter mob
 - Prisma as ORM for SQLite connection;
 - Middleware for route protection.
 
+## Techstack
+</div>
+<div align="center">
+    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+</div>
+
 ## Starting the Mobile App
 
 To start the mobile app, please follow the steps below:
