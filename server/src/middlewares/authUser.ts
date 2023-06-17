@@ -22,7 +22,8 @@ export function authenticateUser(request: FastifyRequest, reply: FastifyReply, d
   }
 
   try {
-    const decoded = jwt.verify(token, JWT_SECRET);
+    const tokenWithoutPrefix = token.split(' ')[1];
+    const decoded = jwt.verify(tokenWithoutPrefix, JWT_SECRET);
 
     // -- Adicionar os dados decodificados do token à solicitação para uso posterior
     request.user = decoded;
