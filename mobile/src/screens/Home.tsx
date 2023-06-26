@@ -3,24 +3,11 @@ import { useCallback, useState } from 'react';
 import { View, Text, ScrollView, Alert } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Header } from '../components/Header';
+import { Tab1Screen } from './Tab1Screen';
+import { Tab2Screen } from './Tab2Screen';
 import { Loading } from '../components/Loading';
 
 
-function Tab1Screen() {
-  return (
-    <View>
-      <Text>Tela 1</Text>
-    </View>
-  );
-}
-
-function Tab2Screen() {
-  return (
-    <View>
-      <Text>Tela 2</Text>
-    </View>
-  );
-}
 
 const Tab = createBottomTabNavigator();
 export function Home() {
@@ -57,7 +44,12 @@ export function Home() {
   return (
     <View className="flex-1 bg-background pt-16">
       <Header />
-      <Tab.Navigator>
+      <Tab.Navigator screenOptions={{
+        headerShown: false,
+        tabBarStyle: { backgroundColor: '#0000', paddingTop: 0 },
+        }}
+    
+        >
       <Tab.Screen name="Tab1" component={Tab1Screen} />
       <Tab.Screen name="Tab2" component={Tab2Screen} />
     </Tab.Navigator>
