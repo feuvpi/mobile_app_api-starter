@@ -12,7 +12,7 @@ export function AppRoutes() {
       <Screen name="home" component={Home} />
       <Screen name="login" component={Login} />
       
-      <Screen name="newHabit" component={Form} />
+      <Screen name="Form" component={Form} />
       <Screen name="register" component={Register} />
     </Navigator>
   );
