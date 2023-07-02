@@ -30,8 +30,8 @@ export default function App() {
 
     await Notifications.scheduleNotificationAsync({
       content:{
-        title: 'Viva uma vida mais organizada!',
-        body: 'Cheque a sua rotina diária',
+        title: 'Some notification title',
+        body: 'Some notification body',
         data:{},
       },
       trigger:{
